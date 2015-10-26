@@ -317,7 +317,7 @@
                       <p>If you have Pentaho 6.0 <strong>Enterprise Edition</strong> and go to <a href="http://www.pentaho.com/marketplace/" target="_blank">Marketplace Public Site</a> to try to download the Marketplace plugin, you'll see it's not there.</p>
                       <p>The reason for that? It's an OSGi plugin and you already have it, but it comes disabled by default. Here are the instructions on how to enable it:</p>
                       <ol>
-                        <li>Edit the file <code>pentaho-solution/system/karaf/etc/org.apache.kara.features.cfg</code></li>
+                        <li>Edit the file <code>pentaho-solution/system/karaf/etc/org.apache.karaf.features.cfg</code></li>
                         <li>Find the key "featuresBoot" and add the feature "pentaho-marketplace". That line will then be something like:<br>
                         <pre>featuresBoot=config,management,kar,cxf,camel,camel-blueprint,camel-stream,pentaho-server,mongolap,pentaho-metaverse,pdi-dataservice-client,pentaho-yarn-obf,pentaho-marketplace</pre></li>
                       </ol>
@@ -516,7 +516,7 @@
                           <p>If you have Pentaho 6.0 <strong>Enterprise Edition</strong> and go to <a href="http://www.pentaho.com/marketplace/" target="_blank">Marketplace Public Site</a> to try to download the Marketplace plugin, you'll see it's not there.</p>
                           <p>The reason for that? It's an OSGi plugin and you already have it, but it comes disabled by default. Here are the instructions on how to enable it:</p>
                           <ol>
-                            <li>Edit the file <code>pentaho-solution/system/karaf/etc/org.apache.kara.features.cfg</code></li>
+                            <li>Edit the file <code>pentaho-solution/system/karaf/etc/org.apache.karaf.features.cfg</code></li>
                             <li>Find the key "featuresBoot" and add the feature "pentaho-marketplace". That line will then be something like:<br>
                             <pre>featuresBoot=config,management,kar,cxf,camel,camel-blueprint,camel-stream,pentaho-server,mongolap,pentaho-metaverse,pdi-dataservice-client,pentaho-yarn-obf,pentaho-marketplace</pre></li>
                           </ol>
